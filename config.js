@@ -21,7 +21,36 @@ var config = {
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
-    
+    {
+            id: '1',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [28.98829047366165,41.03636307005371],
+                zoom: 12,
+                pitch: 35,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
           {
             id: '2',
             alignment: 'left',
