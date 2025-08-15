@@ -19,7 +19,7 @@ var config = {
     title: 'Ayaspaşa Mezarlığı / Ayaspaşa Cemetery',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
     {
             id: '1',
@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/Tq0GLXNR/1.png',
+            image: 'https://i.ibb.co/Q3BhybjM/1.png',
             description: '',
             location: {
                 center: [28.98829047366165,41.03636307005371],
@@ -86,10 +86,10 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/WWsstGy5/2.png',
+            image: 'https://i.ibb.co/43t80w8/2.png',
             description: '',
             location: {
-                center: [28.98829047366165,41.03636307005371],
+                center: [28.992029381362837,41.03793904679432],
                 zoom: 15,
                 pitch: 25,
                 bearing: 0
@@ -116,7 +116,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/hFwNtt0c/3.png',
+            image: 'https://i.ibb.co/Y4ZMhM0Z/3.png',
             description: '',
             location: {
                 center: [28.98829047366165,41.03636307005371],
@@ -146,16 +146,16 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/tf7nX3f/4.png',
+            image: 'https://i.ibb.co/zWdWF1mk/4.png',
             description: '',
             location: {
-                center: [28.98829047366165,41.03636307005371],
-                zoom: 19,
-                pitch: 25,
+                center: [28.988800129792587,41.03842766858472],
+                zoom: 16,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
